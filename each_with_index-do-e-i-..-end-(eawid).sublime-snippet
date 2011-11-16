@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[each_with_index do |${1:v}, ${2:i}|
+  $0
+end]]></content>
+    <tabTrigger>eawid</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>each_with_index do |v, i| .. end</description>
+</snippet>

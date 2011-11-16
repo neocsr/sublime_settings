@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[get '${1:/}' do
+  $0
+end]]></content>
+    <tabTrigger>ged</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>get '/' do .. end</description>
+</snippet>
