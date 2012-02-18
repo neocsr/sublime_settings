@@ -3,8 +3,8 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"Nodejs",
+		"SublimeTagmatcher",
 		"SublimeCodeIntel",
-		"SublimeTagmatcher"
+		"Nodejs"
 	]
 }
