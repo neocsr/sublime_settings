@@ -1,0 +1,16 @@
+{
+	"auto_upgrade_last_run": 1329448499,
+	"installed_packages":
+	[
+		"Alignment",
+		"ColorPicker",
+		"HTML5",
+		"JsFormat",
+		"Nodejs",
+		"Package Control",
+		"SublimeCodeIntel",
+		"SublimeWebColors",
+		"ToggleQuotes",
+		"WordHighlight"
+	]
+}
