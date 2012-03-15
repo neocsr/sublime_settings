@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1329448499,
+	"auto_upgrade_last_run": 1331490716,
 	"installed_packages":
 	[
 		"Alignment",
@@ -8,6 +8,8 @@
 		"JsFormat",
 		"Nodejs",
 		"Package Control",
+		"SplitScreen",
+		"sublime-split-navigation",
 		"SublimeCodeIntel",
 		"SublimeWebColors",
 		"ToggleQuotes",
