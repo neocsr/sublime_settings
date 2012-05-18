@@ -1,0 +1,28 @@
+<snippet>
+    <content>
+<![CDATA[
+${1:// Version 1.5 }
+\$.ajax({
+  url: '${2:/}',
+  type: '${3:POST}',
+  cache: '${4:false}',
+  timeout: '${5:in milliseconds}',
+  contentType: '${6:application/x-www-form-urlencoded}',
+  dataType: '${7:xml/html/script/json/jsonp}',
+  data: {${8:param1}: '${9:value1}'},
+  complete: function(xhr, textStatus) {
+    ${10://called when complete}
+  },
+  success: function(data, textStatus, xhr) {
+    ${11://called when successful}
+  },
+  error: function(xhr, textStatus, errorThrown) {
+    ${12://called when there is an error}
+  }
+});
+]]>
+    </content>
+    <tabTrigger>ajax</tabTrigger>
+    <scope>source</scope>
+    <description>$.ajax</description>
+</snippet>
