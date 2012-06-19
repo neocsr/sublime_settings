@@ -9,7 +9,7 @@
       { "key": "setting.tab_completion", "operator": "equal", "operand": true }
     ]
   },
-  
+
   // { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },
   // { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false},
   //   "context":
@@ -17,7 +17,7 @@
   //     { "key": "setting.tab_completion", "operator": "equal", "operand": true }
   //   ]
   // },
-  
+
   // Auto-pair Rails erb tags
   { "keys": ["<", "%"], "command": "insert_snippet", "args": {"contents": "<%$0 %>"} },
   { "keys": ["shift+ctrl+,"], "command": "insert_snippet", "args": {"contents": "<%${0:$SELECTION} %>"}, "context":
@@ -50,6 +50,82 @@
   },
 
   // Trim Trailing Whitespace
-  { "keys": ["shift+ctrl+t"], "command": "trim_trailing_whitespace" }
+  { "keys": ["shift+ctrl+t"], "command": "trim_trailing_whitespace" },
+
+  // CTags
+  {
+    "command": "navigate_to_definition",
+    "context": [],
+    "keys": [
+      "super+t", "super+t"
+    ]
+  },
+  {
+    "command": "navigate_to_definition",
+    "keys": [
+      "super+alt+]"
+    ]
+  },
+  {
+    "command": "jump_back",
+    "context": [],
+    "keys": [
+      "super+t", "super+b"
+    ]
+  },
+  {
+    "command": "jump_back",
+    "keys": [
+      "super+alt+["
+    ]
+  },
+  {
+    "command": "jump_back",
+    "args": {
+      "to": "last_modification"
+    },
+    "context": [],
+    "keys": [
+      "super+t", "super+m"
+    ]
+  },
+  {
+    "command": "rebuild_tags",
+    "context": [],
+    "keys": [
+      "super+t", "super+r"
+    ]
+  },
+  {
+    "command": "show_symbols",
+    "context": [
+      {
+        "key": "selector",
+        "match_all": true,
+        "operand": "source -source.css",
+        "operator": "equal"
+      }
+    ],
+    "keys": [
+      "alt+s"
+    ]
+  },
+  {
+    "command": "show_symbols",
+    "args": {
+      "type": "multi"
+    },
+    "context": [
+      {
+        "key": "selector",
+        "match_all": true,
+        "operand": "source -source.css",
+        "operator": "equal"
+      }
+    ],
+    "keys": [
+      "alt+shift+s"
+    ]
+  }
 
 ]
