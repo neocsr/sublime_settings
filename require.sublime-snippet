@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[require '$1'
+$0
+]]></content>
+    <tabTrigger>re</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>require '...'</description>
+</snippet>
