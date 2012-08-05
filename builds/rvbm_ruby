@@ -1,28 +1,33 @@
 #!/usr/bin/env ruby
 
+require 'shellwords'
+
 file = File.expand_path(ARGV[0] || (STDERR.puts('you must specify a ruby file'); exit(-1)))
-dir = File.dirname file
-while dir.size > 1
-  if File.exist?(dir + '/.rvmrc')
-    exec( """
-          source \"$HOME/.rvm/scripts/rvm\"
-          echo \"directory: #{dir}\"
-          echo \"  command: ruby #{file}\"
-          echo \"-------------------------------------------------------------\"
-          cd #{dir}
-          ruby #{file}
-          """ )
-  elsif File.exist?(dir + '/.rbenv')
-    exec( """
-          echo \"directory: #{dir}\"
-          echo \"  command: /usr/local/bin/rbenv ruby #{file}\"
-          echo \"-------------------------------------------------------------\"
-          cd #{dir}
-          /usr/local/bin/rbenv ruby #{file}
-          """ )
-  else
-    dir = dir.sub(/\/[^\/]*$/, '')
-  end
+file = Shellwords.escape(file)
+
+dir = File.dirname(file)
+dir = Shellwords.escape(dir)
+
+if File.exist?(ENV['HOME'] + '/.rvmrc')
+  exec( """
+        source \"$HOME/.rvm/scripts/rvm\"
+        echo \"     file: #{file}\"
+        echo \"directory: #{dir}\"
+        echo \"  command: ruby #{file}\"
+        echo \"-------------------------------------------------------------\"
+        ruby #{file}
+        """ )
+elsif File.exist?(ENV['HOME'] + '/.rbenv')
+  exec( """
+        echo \"     file: #{file}\"
+        echo \"directory: #{dir}\"
+        echo \"  command: /usr/local/bin/rbenv exec ruby #{file}\"
+        echo \"-------------------------------------------------------------\"
+        /usr/local/bin/rbenv exec ruby #{file}
+        """ )
+else
+  STDERR.puts("'.rvm' or '.rbenv' directories not found in your home path")
+  exit(-1)
 end
 
 puts "Could not find any .rvmrc or .rbenv above #{file}"

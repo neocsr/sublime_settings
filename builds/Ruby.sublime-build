@@ -1,4 +1,3 @@
-rvm setup
 {
 	"cmd": ["/usr/local/bin/rvbm_ruby", "$file"],
 	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
