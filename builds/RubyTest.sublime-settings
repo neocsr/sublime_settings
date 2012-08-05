@@ -1,8 +1,8 @@
 {
   "erb_exec": "erb",
-  "ruby_unit_exec": "/usr/local/bin/rvm_minitest",
-  "ruby_cucumber_exec": "/usr/local/bin/rvm_cucumber",
-  "ruby_rspec_exec": "/usr/local/bin/rvm_rspec",
+  "ruby_unit_exec": "/usr/local/bin/rvbm_minitest",
+  "ruby_cucumber_exec": "/usr/local/bin/rvbm_cucumber",
+  "ruby_rspec_exec": "/usr/local/bin/rvbm_rspec",
 
   "ruby_unit_folder": "test",
   "ruby_cucumber_folder": "features",

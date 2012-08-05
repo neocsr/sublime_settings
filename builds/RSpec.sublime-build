@@ -1,5 +1,5 @@
 {
-	"cmd": ["/usr/local/bin/rvm_rspec", "$file"],
+	"cmd": ["/usr/local/bin/rvbm_rspec", "$file"],
 	"file_regex": "# ([A-Za-z:0-9_./ ]+rb):([0-9]+)",
 	"working_dir": "${project_path:${folder}}",
 	"selector": "source.ruby",
