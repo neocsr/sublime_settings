@@ -1,6 +1,7 @@
 {
-  "ruby_unit_exec": "ruby -Itest",
-  "ruby_cucumber_exec": "cucumber --no-color",
+  "erb_exec": "erb",
+  "ruby_unit_exec": "/usr/local/bin/rvm_minitest",
+  "ruby_cucumber_exec": "/usr/local/bin/rvm_cucumber",
   "ruby_rspec_exec": "/usr/local/bin/rvm_rspec",
 
   "ruby_unit_folder": "test",

@@ -1,13 +1,7 @@
-// rvm setup
-// {
-// 	"cmd": ["/usr/local/bin/rvm_ruby", "$file"],
-// 	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-// 	"selector": "source.ruby",
-//   "working_dir": "${project_path:${folder}}"
-// }
-
+rvm setup
 {
-  "cmd": ["ruby", "$file"],
-  "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-  "selector": "source.ruby"
+	"cmd": ["/usr/local/bin/rvm_ruby", "$file"],
+	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+	"selector": "source.ruby",
+  "working_dir": "${project_path:${folder}}"
 }

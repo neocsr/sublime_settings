@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+file = File.expand_path(ARGV[0] || (STDERR.puts('you must specify a ruby file'); exit(-1)))
+dir = File.dirname file
+puts dir
+while dir.size > 1
+
+  if File.exist?(dir + '/.rvmrc')
+    exec( """
+          source \"$HOME/.rvm/scripts/rvm\"
+          echo \"directory: #{dir}\"
+          echo \"  command: bundle exec cucumber #{file} -f pretty\"
+          echo \"-------------------------------------------------------------\"
+          cd #{dir}
+          bundle exec cucumber #{file} -f pretty
+          """ )
+  elsif File.exist?(dir + '/.rbenv')
+    exec( """
+          echo \"directory: #{dir}\"
+          echo \"  command: /usr/local/bin/rbenv bundle exec cucumber #{file} -f pretty\"
+          echo \"-------------------------------------------------------------\"
+          cd #{dir}
+          /usr/local/bin/rbenv cucumber #{file} -f pretty
+          """ )
+  else
+    dir = dir.sub(/\/[^\/]*$/, '')
+  end
+end
+
+puts "Could not find any .rvmrc or .rbenv above #{file}"
+
+exec( """
+      echo \"command: bundle exec cucumber #{file}\"
+      bundle exec cucumber #{file} -f pretty
+      """ )
+
+exit(-1)
