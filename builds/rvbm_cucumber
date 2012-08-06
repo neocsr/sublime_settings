@@ -23,7 +23,7 @@ elsif File.exist?(ENV['HOME'] + '/.rbenv')
         echo \"directory: #{dir}\"
         echo \"  command: /usr/local/bin/rbenv exec bundle exec cucumber #{file} -f pretty\"
         echo \"-------------------------------------------------------------\"
-        /usr/local/bin/rbenv exec cucumber #{file} -f pretty
+        /usr/local/bin/rbenv exec bundle exec cucumber #{file} -f pretty
         """ )
 else
   STDERR.puts("'.rvm' or '.rbenv' directories not found in your home path")

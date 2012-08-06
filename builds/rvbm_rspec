@@ -23,7 +23,7 @@ elsif File.exist?(ENV['HOME'] + '/.rbenv')
         echo \"directory: #{dir}\"
         echo \"  command: /usr/local/bin/rbenv exec bundle exec rspec #{file} --color\"
         echo \"-------------------------------------------------------------\"
-        /usr/local/bin/rbenv exec rspec #{file} --color
+        /usr/local/bin/rbenv exec bundle exec rspec #{file} --color
         """ )
 else
   STDERR.puts("'.rvm' or '.rbenv' directories not found in your home path")
