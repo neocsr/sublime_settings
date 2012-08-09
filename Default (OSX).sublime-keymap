@@ -1,5 +1,6 @@
 [
   { "keys": ["super+ctrl+a"], "command": "alignment" },
+  { "keys": ["super+ctrl+j"], "command": "prettyjson" },
 
   // Autocomplete
   { "keys": ["shift+space"], "command": "auto_complete" },
