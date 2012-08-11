@@ -10,7 +10,7 @@
                 <key>settings</key>
                 <dict>
                     <key>background</key>
-                    <string>#0F0F0D</string>
+                    <string>#1C1C18</string>
                     <key>caret</key>
                     <string>#F8F8F0</string>
                     <key>foreground</key>
@@ -20,7 +20,7 @@
                     <key>lineHighlight</key>
                     <string>#330033</string>
                     <key>selection</key>
-                    <string>#DD0000</string>
+                    <string>#C800FF</string>
                     <key>searchHighlight</key>
                     <string>#008C00</string>
                 </dict>
@@ -306,6 +306,94 @@
                     <string>#F8F8F0</string>
                 </dict>
             </dict>
+    <dict>
+      <key>name</key>
+      <string>Test</string>
+      <key>scope</key>
+      <string>test.pass</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00FF00</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Test</string>
+      <key>scope</key>
+      <string>test.error</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF0000</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Test</string>
+      <key>scope</key>
+      <string>test.fail</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF1493</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Test</string>
+      <key>scope</key>
+      <string>test.cucumber</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFcc66</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Test</string>
+      <key>scope</key>
+      <string>test.skipped</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#00B6BB</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Test</string>
+      <key>scope</key>
+      <string>test.pending</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#BABC00</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Test</string>
+      <key>scope</key>
+      <string>test.comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#545454</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Test</string>
+      <key>scope</key>
+      <string>test.hidden_comment</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#000000</string>
+      </dict>
+    </dict>
         </array>
         <key>uuid</key>
         <string>07C9C9FB-CB69-4024-8D21-20D2AE8103F4</string>
