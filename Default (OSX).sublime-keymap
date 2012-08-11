@@ -1,6 +1,7 @@
 [
   { "keys": ["super+ctrl+a"], "command": "alignment" },
   { "keys": ["super+ctrl+j"], "command": "prettyjson" },
+  { "keys": ["ctrl+shift+."], "command": "erb" },
 
   // Autocomplete
   { "keys": ["shift+space"], "command": "auto_complete" },
@@ -8,27 +9,6 @@
     [
       { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
       { "key": "setting.tab_completion", "operator": "equal", "operand": true }
-    ]
-  },
-
-  // { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },
-  // { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false},
-  //   "context":
-  //   [
-  //     { "key": "setting.tab_completion", "operator": "equal", "operand": true }
-  //   ]
-  // },
-
-  // Auto-pair Rails erb tags
-  { "keys": ["<", "%"], "command": "insert_snippet", "args": {"contents": "<%$0 %>"} },
-  { "keys": ["shift+ctrl+,"], "command": "insert_snippet", "args": {"contents": "<%${0:$SELECTION} %>"}, "context":
-    [
-      { "key": "selector", "operator": "equal", "operand": true, "match_all": true }
-    ]
-  },
-  { "keys": ["shift+ctrl+="], "command": "insert_snippet", "args": {"contents": "<%=${0:$SELECTION} %>"}, "context":
-    [
-      { "key": "selector", "operator": "equal", "operand": true, "match_all": true }
     ]
   },
 
