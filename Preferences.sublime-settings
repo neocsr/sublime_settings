@@ -6,7 +6,8 @@
 		"normal"
 	],
 	"font_size": 16.0,
-	"highlight_modified_tabs": true,
+	"highlight_modified_tabs": false,
+	"bold_folder_labels":true,
 	"ignored_packages":
 	[
 		"ColorPicker",
