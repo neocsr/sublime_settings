@@ -1,11 +1,11 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Crake.tmTheme",
-	"font_face": "menlo",
+	"font_face": "GohuFont",
 	"font_options":
 	[
 		"normal"
 	],
-	"font_size": 16.0,
+	"font_size": 15.0,
 	"highlight_modified_tabs": false,
 	"bold_folder_labels":true,
 	"ignored_packages":
