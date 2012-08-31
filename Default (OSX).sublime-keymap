@@ -107,6 +107,9 @@
     "keys": [
       "alt+shift+s"
     ]
+  },
+  {
+    "command": "toggle_minimap",
+    "keys": ["super+k","super+m"]
   }
-
 ]
