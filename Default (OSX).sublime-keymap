@@ -1,4 +1,18 @@
 [
+  // Expand Selection to Quotes
+  { "keys": ["super+shift+'"], "command": "expand_selection_to_quotes" },
+
+  // Move Tabs
+  { "keys": ["ctrl+shift+["], "command": "move_view", "args": {"direction": "left"} },
+  { "keys": ["ctrl+shift+]"], "command": "move_view", "args": {"direction": "right"} },
+
+  // MoveText
+  { "keys": ["shift+super+left"], "command": "move_text_left" },
+  { "keys": ["shift+super+right"], "command": "move_text_right" },
+  { "keys": ["shift+super+up"], "command": "move_text_up" },
+  { "keys": ["shift+super+down"], "command": "move_text_down" },
+
+  // Custom
   { "keys": ["super+ctrl+a"], "command": "alignment" },
   { "keys": ["super+ctrl+j"], "command": "prettyjson" },
   { "keys": ["ctrl+shift+."], "command": "erb" },
