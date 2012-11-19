@@ -3,6 +3,6 @@
   $0
 end]]></content>
     <tabTrigger>eaid</tabTrigger>
-    <scope>source.ruby</scope>
+    <scope>source.ruby, source.rubymotion</scope>
     <description>each_index do |i| .. end</description>
 </snippet>

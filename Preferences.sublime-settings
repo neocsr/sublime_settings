@@ -19,7 +19,8 @@
 	],
 	"rulers":
 	[
-		80, 120
+		80,
+		120
 	],
 	"show_full_path": true,
 	"tab_size": 2,

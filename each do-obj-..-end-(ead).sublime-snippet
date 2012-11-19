@@ -3,6 +3,6 @@
 	$0
 end]]></content>
     <tabTrigger>ead</tabTrigger>
-    <scope>source.ruby</scope>
+    <scope>source.ruby, source.rubymotion</scope>
     <description>each do |variable| .. end</description>
 </snippet>

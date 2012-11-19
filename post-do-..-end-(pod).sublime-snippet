@@ -3,6 +3,6 @@
   $0
 end]]></content>
     <tabTrigger>pod</tabTrigger>
-    <scope>source.ruby</scope>
+    <scope>source.ruby, source.rubymotion</scope>
     <description>post '/' do .. end</description>
 </snippet>

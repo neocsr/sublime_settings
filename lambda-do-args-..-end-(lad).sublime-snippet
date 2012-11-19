@@ -3,6 +3,6 @@
   $0
 end]]></content>
     <tabTrigger>lad</tabTrigger>
-    <scope>source.ruby</scope>
+    <scope>source.ruby, source.rubymotion</scope>
     <description>lambda do |args| .. end</description>
 </snippet>

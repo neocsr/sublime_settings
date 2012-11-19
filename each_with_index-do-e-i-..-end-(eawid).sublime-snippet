@@ -3,6 +3,6 @@
   $0
 end]]></content>
     <tabTrigger>eawid</tabTrigger>
-    <scope>source.ruby</scope>
+    <scope>source.ruby, source.rubymotion</scope>
     <description>each_with_index do |v, i| .. end</description>
 </snippet>

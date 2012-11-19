@@ -3,6 +3,6 @@
   $0
 end]]></content>
     <tabTrigger>ged</tabTrigger>
-    <scope>source.ruby</scope>
+    <scope>source.ruby, source.rubymotion</scope>
     <description>get '/' do .. end</description>
 </snippet>
