@@ -1,14 +1,64 @@
 [
+  // Resize views
+  {
+    "keys": ["ctrl+shift+h"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.33, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  {
+    "keys": ["ctrl+shift+l"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.66, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  {
+    "keys": ["ctrl+shift+k"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+  {
+    "keys": ["ctrl+shift+j"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+    }
+  },
+
+  // Split Navigation
+  {"keys": ["ctrl+super+u"], "command": "split_navigation", "args": {"direction": "up"}},
+  // {"keys": ["ctrl+super+d"], "command": "split_navigation", "args": {"direction": "down"}},
+
+  // Move File to Other Tab
+  { "keys": ["ctrl+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
+  { "keys": ["ctrl+shift+right"], "command": "move_to_group", "args": { "group": 1 } },
+
+  // Move Tabs
+  { "keys": ["ctrl+shift+["], "command": "move_view", "args": {"direction": "left"} },
+  { "keys": ["ctrl+shift+]"], "command": "move_view", "args": {"direction": "right"} },
+
   // Underscore
   { "keys": ["super+shift+."], "command": "insert_snippet", "args": {"contents": "{{ $0 }}"}},
   { "keys": ["ctrl+."], "command": "insert_snippet", "args": {"contents": "<%= $0 %>"}},
 
   // Expand Selection to Quotes
   { "keys": ["super+shift+'"], "command": "expand_selection_to_quotes" },
-
-  // Move Tabs
-  { "keys": ["ctrl+shift+["], "command": "move_view", "args": {"direction": "left"} },
-  { "keys": ["ctrl+shift+]"], "command": "move_view", "args": {"direction": "right"} },
 
   // MoveText
   { "keys": ["alt+super+left"], "command": "move_text_left" },
