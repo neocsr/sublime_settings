@@ -1,4 +1,8 @@
 [
+  // Cucumber Steps
+  { "keys": ["super+y"], "command": "cucumber_step_finder" },
+  { "keys": ["ctrl+super+m"], "command": "match_step" },
+
   // Sublime List Tabs
   { "keys": ["ctrl+super+t"], "command": "list_tabs"},
 
