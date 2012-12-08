@@ -1,4 +1,7 @@
 [
+  // Sublime List Tabs
+  { "keys": ["ctrl+super+t"], "command": "list_tabs"},
+
   // Resize views
   {
     "keys": ["ctrl+shift+h"],

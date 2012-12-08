@@ -11,9 +11,10 @@
 	"ignored_packages":
 	[
 		"ColorPicker",
+		"Backbone.js",
 		"SublimeCodeIntel",
 		"Nodejs",
-		"jQuery Snippets pack",
+		"JavaScriptNext - ES6 Syntax",
 		"SublimeWebColors",
 		"SublimeTagmatcher",
 		"RubyMotion Autocomplete"
