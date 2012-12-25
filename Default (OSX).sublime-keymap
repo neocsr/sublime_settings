@@ -1,4 +1,9 @@
 [
+  // New Lines
+  { "keys": ["ctrl+super+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Line with Semi Colon.sublime-macro"} },
+  { "keys": ["alt+super+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Line with Comma.sublime-macro"} },
+  { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Semi Colon.sublime-macro"} },
+
   // Cucumber Steps
   { "keys": ["super+y"], "command": "cucumber_step_finder" },
   { "keys": ["ctrl+super+m"], "command": "match_step" },
@@ -61,8 +66,8 @@
   { "keys": ["ctrl+shift+]"], "command": "move_view", "args": {"direction": "right"} },
 
   // Underscore
-  { "keys": ["super+shift+."], "command": "insert_snippet", "args": {"contents": "{{ $0 }}"}},
-  { "keys": ["ctrl+."], "command": "insert_snippet", "args": {"contents": "<%= $0 %>"}},
+  { "keys": ["super+shift+."], "command": "insert_snippet", "args": {"contents": "<%= $0 %>"}},
+  { "keys": ["ctrl+."], "command": "insert_snippet", "args": {"contents": "<% $0 %>"}},
 
   // Expand Selection to Quotes
   { "keys": ["super+shift+'"], "command": "expand_selection_to_quotes" },
