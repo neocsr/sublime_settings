@@ -8,6 +8,7 @@
 	],
 	"font_size": 14.0,
 	"highlight_modified_tabs": false,
+	"vintage_start_in_command_mode": true,
 	"ignored_packages":
 	[
 		"ColorPicker",
