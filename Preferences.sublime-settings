@@ -19,7 +19,8 @@
 		"SublimeWebColors",
 		"SublimeTagmatcher",
 		"RubyMotion Autocomplete",
-		"EJS"
+		"EJS",
+		"RubyMotionBuilder"
 	],
 	"rulers":
 	[
