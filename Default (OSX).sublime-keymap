@@ -1,6 +1,7 @@
 [
   // Reveal file in sidebar
   {"keys": ["ctrl+super+r"], "command": "reveal_in_side_bar"},
+
   // New Lines
   { "keys": ["ctrl+super+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Line with Semi Colon.sublime-macro"} },
   { "keys": ["alt+super+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Line with Comma.sublime-macro"} },
@@ -80,8 +81,10 @@
   { "keys": ["alt+super+up"], "command": "move_text_up" },
   { "keys": ["alt+super+down"], "command": "move_text_down" },
 
+  // Abacus Alignment
+  { "keys": ["super+ctrl+a"], "command": "abacus" },
+
   // Custom
-  { "keys": ["super+ctrl+a"], "command": "alignment" },
   { "keys": ["super+ctrl+j"], "command": "prettyjson" },
   { "keys": ["ctrl+shift+."], "command": "erb" },
 
