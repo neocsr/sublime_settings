@@ -1,6 +1,9 @@
 [
+  // JsFormat for JavaScript and JSON
+  { "keys": ["ctrl+super+f"], "command": "js_format" },
+
   // Reveal file in sidebar
-  {"keys": ["ctrl+super+r"], "command": "reveal_in_side_bar"},
+  { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
 
   // New Lines
   { "keys": ["ctrl+super+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Line with Semi Colon.sublime-macro"} },
