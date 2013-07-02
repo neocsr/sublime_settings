@@ -8,6 +8,7 @@
   // New Lines
   { "keys": ["ctrl+super+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Line with Semi Colon.sublime-macro"} },
   { "keys": ["alt+super+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Line with Comma.sublime-macro"} },
+  { "keys": ["alt+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Line with Dot.sublime-macro"} },
   { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/Add Semi Colon.sublime-macro"} },
 
   // Cucumber Steps
