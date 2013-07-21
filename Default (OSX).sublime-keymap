@@ -1,4 +1,38 @@
 [
+  // Emmet
+  {
+    "keys": ["ctrl+alt+space"],
+    "command": "expand_as_you_type",
+    "context": [{
+      "operand": false,
+      "operator": "equal",
+      "match_all": true,
+      "key": "setting.is_widget"
+    }, {
+      "match_all": true,
+      "key": "emmet_action_enabled.expand_as_you_type"
+    }]
+  },
+  {
+    "keys": ["ctrl+alt+w"],
+    "command": "wrap_as_you_type",
+    "context": [{
+      "operand": false,
+      "operator": "equal",
+      "match_all": true,
+      "key": "setting.is_widget"
+    }, {
+      "match_all": true,
+      "key": "emmet_action_enabled.wrap_as_you_type"
+    }]
+  },
+  {
+    "keys": ["ctrl+e"],
+    "args": {"action": "expand_abbreviation"},
+    "command": "run_emmet_action",
+    "context": [{"key": "emmet_action_enabled.expand_abbreviation"}]
+  },
+
   // JsFormat for JavaScript and JSON
   { "keys": ["ctrl+super+f"], "command": "js_format" },
 
