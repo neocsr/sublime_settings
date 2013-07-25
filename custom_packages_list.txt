@@ -1,0 +1,95 @@
+ASP
+Abacus
+ActionScript
+Alignment
+AppleScript
+Backbone.js
+Batch File
+C#
+C++
+CSS
+CTags
+Clojure
+CoffeeScript
+Color Scheme - Default
+ColorPicker
+Console API Snippets (JavaScript)
+Cucumber
+Cucumber Step Finder
+D
+Default
+Diff
+Emmet
+Erlang
+Expand Selection to Quotes
+Git
+Go
+Graphviz
+Groovy
+HTML
+HTML5
+HTMLAttributes
+Haskell
+IndentGuides
+Jasmine
+Java
+JavaScript
+JavaScript Snippets
+JsFormat
+LaTeX
+Language - English
+Lisp
+Lua
+Makefile
+Markdown
+Matlab
+Move Tabs
+MoveText
+Nodejs
+OCaml
+Objective-C
+PHP
+Package Control
+Perl
+Pretty JSON
+Print to HTML
+PyV8
+Python
+R
+RSpec
+Rails
+Regular Expressions
+RestructuredText
+Ruby
+RubyMotionBuilder
+RubyTest
+SCSS
+SQL
+Sass
+Scala
+Shell Turtlestein
+ShellScript
+Simple Rails Navigator
+SplitScreen
+Sublime File Navigator
+SublimeCodeIntel
+SublimeLinter
+SublimeREPL
+SublimeWebColors
+Surround
+TCL
+Text
+Textile
+Theme - Default
+ToggleQuotes
+Underscore.js Snippets
+User
+Vintage
+Vintage Surround
+WordHighlight
+XML
+YAML
+jQuery
+jQuery Snippets pack
+rbenv
+sublime-split-navigation

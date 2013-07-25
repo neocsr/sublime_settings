@@ -1,5 +1,4 @@
-Package*
 .DS_Store
-Package\ Control.sublime-settings
+Package\ Control.*
 RubyTest.last-run
 SublimeREPLHistory
