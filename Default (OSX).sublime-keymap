@@ -1,4 +1,6 @@
 [
+  // Single test
+  { "keys": ["super+shift+r"], "command": "run_single_ruby_test" },
   // Emmet
   {
     "keys": ["ctrl+alt+space"],
