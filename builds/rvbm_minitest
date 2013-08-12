@@ -2,39 +2,28 @@
 
 require 'shellwords'
 
-file = File.expand_path(ARGV[0] || (STDERR.puts('you must specify a ruby file'); exit(-1)))
-file = Shellwords.escape(file)
-
-dir = File.dirname(file)
-dir = Shellwords.escape(dir)
-
 if File.exist?(ENV['HOME'] + '/.rvmrc')
   exec( """
-        source \"$HOME/.rvm/scripts/rvm\"
-        echo \"     file: #{file}\"
-        echo \"directory: #{dir}\"
-        echo \"  command: ruby -I.:lib:test #{file}\"
-        echo \"-------------------------------------------------------------\"
-        ruby #{file}
+        echo \"  command: bundle exec ruby #{ARGV.join(' ')}\"
+        echo \"------------------------------------------------------------------------------\"
+        bundle exec ruby #{ARGV.join(' ')}
         """ )
 elsif File.exist?(ENV['HOME'] + '/.rbenv')
   exec( """
-        echo \"     file: #{file}\"
-        echo \"directory: #{dir}\"
-        echo \"  command: /usr/local/bin/rbenv exec ruby -I.:lib:test #{file}\"
-        echo \"-------------------------------------------------------------\"
-        /usr/local/bin/rbenv exec ruby -I.:lib:test #{file}
+        echo \"  command: ~/.rbenv/shims/bundle exec ruby #{ARGV.join(' ')}\"
+        echo \"------------------------------------------------------------------------------\"
+        ~/.rbenv/shims/bundle exec ruby #{ARGV.join(' ')}
         """ )
 else
   STDERR.puts("'.rvm' or '.rbenv' directories not found in your home path")
   exit(-1)
 end
 
-puts "Could not find any .rvmrc or .rbenv above #{file}"
+puts "Could not find any .rvmrc or .rbenv above #{ARGV.join(' ')}"
 
 exec( """
-      echo \"command: ruby -I.:lib:test #{file}\"
-      ruby -I.:lib:test #{file}
+      echo \"command: ruby -Ilib:bin:test:. #{ARGV.join(' ')}\"
+      ruby -I.:lib:test #{ARGV.join(' ')}
       """ )
 
 exit -1
