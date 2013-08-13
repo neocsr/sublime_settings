@@ -16,6 +16,11 @@
   "ruby_rspec_folder": "spec",
 
   "ruby_use_scratch" : false,
-  "save_on_run": false,
-  "ignored_directories": [".git", "vendor", "tmp"]
+  "save_on_run": true,
+  "ignored_directories": [".git", "vendor", "tmp"],
+
+  "hide_panel": false,
+
+  "before_callback": "",
+  "after_callback": ""
 }
