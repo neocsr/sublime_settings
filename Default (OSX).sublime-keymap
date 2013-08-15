@@ -1,4 +1,7 @@
 [
+  // Fold Comments
+  // https://github.com/hasclass/FoldComments.git
+  { "keys": ["super+shift+/"], "command": "toggle_comments" },
   // Single test
   { "keys": ["super+shift+r"], "command": "run_single_ruby_test" },
   // Emmet
