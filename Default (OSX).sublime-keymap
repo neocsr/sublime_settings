@@ -11,6 +11,15 @@
       "cells": [ [0, 0, 1, 2], [1, 0, 2, 1], [1, 1, 2, 2] ]
     }
   },
+  { "keys": ["super+shift+8"],
+    "caption": "2 cols (full - 2)",
+    "command": "set_layout",
+    "args": {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.5, 1.0],
+      "cells": [ [0, 0, 1, 1], [1, 0, 2, 1], [0, 1, 2, 2] ]
+    }
+  },
   // Fold Comments
   // https://github.com/hasclass/FoldComments.git
   { "keys": ["super+shift+/"], "command": "toggle_comments" },
