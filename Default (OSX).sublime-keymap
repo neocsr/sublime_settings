@@ -1,5 +1,5 @@
 [
-  // Custom
+  // Custom layout
   { "keys": ["super+shift+7"],
     "caption": "2 cols (full - 2)",
     "command": "set_layout",
@@ -18,11 +18,32 @@
       "cells": [ [0, 0, 1, 1], [1, 0, 2, 1], [0, 1, 2, 2] ]
     }
   },
+  { "keys": ["super+shift+9"],
+    "caption": "2 cols",
+    "command": "set_layout",
+    "args": {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [ [0, 0, 1, 1], [1, 0, 2, 1] ]
+    }
+  },
+  { "keys": ["super+shift+0"],
+    "caption": "3 cols",
+    "command": "set_layout",
+    "args": {
+      "cols": [0.0, 0.33, 0.66, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [ [0, 0, 1, 1], [1, 0, 2, 1], [1, 0, 3, 1] ]
+    }
+  },
+
   // Fold Comments
   // https://github.com/hasclass/FoldComments.git
   { "keys": ["super+shift+/"], "command": "toggle_comments" },
+
   // Single test
   { "keys": ["super+shift+r"], "command": "run_single_ruby_test" },
+
   // Emmet
   {
     "keys": ["ctrl+alt+space"],
@@ -76,52 +97,6 @@
   // Sublime List Tabs
   { "keys": ["ctrl+super+t"], "command": "list_tabs"},
 
-  // Resize views
-  {
-    "keys": ["ctrl+shift+h"],
-    "command": "set_layout",
-    "args":
-    {
-      "cols": [0.0, 0.33, 1.0],
-      "rows": [0.0, 1.0],
-      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-    }
-  },
-  {
-    "keys": ["ctrl+shift+l"],
-    "command": "set_layout",
-    "args":
-    {
-      "cols": [0.0, 0.66, 1.0],
-      "rows": [0.0, 1.0],
-      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-    }
-  },
-  {
-    "keys": ["ctrl+shift+k"],
-    "command": "set_layout",
-    "args":
-    {
-      "cols": [0.0, 0.5, 1.0],
-      "rows": [0.0, 1.0],
-      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-    }
-  },
-  {
-    "keys": ["ctrl+shift+j"],
-    "command": "set_layout",
-    "args":
-    {
-      "cols": [0.0, 1.0],
-      "rows": [0.0, 1.0],
-      "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-    }
-  },
-
-  // Split Navigation
-  {"keys": ["ctrl+super+u"], "command": "split_navigation", "args": {"direction": "up"}},
-  // {"keys": ["ctrl+super+d"], "command": "split_navigation", "args": {"direction": "down"}},
-
   // Move File to Other Tab
   { "keys": ["ctrl+shift+left"], "command": "move_to_group", "args": { "group": 0 } },
   { "keys": ["ctrl+shift+right"], "command": "move_to_group", "args": { "group": 1 } },
@@ -146,8 +121,10 @@
   // Abacus Alignment
   { "keys": ["super+ctrl+a"], "command": "abacus" },
 
-  // Custom
+  // Pretty JSON
   { "keys": ["super+ctrl+j"], "command": "prettyjson" },
+
+  // Custom
   { "keys": ["ctrl+shift+."], "command": "erb" },
 
   // Autocomplete
