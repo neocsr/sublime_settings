@@ -1,0 +1,25 @@
+{
+    // If set to true it'll add for example "-x c++" to the options for c++ files
+  "add_language_option": true,
+  "sublimeclang_additional_language_options": {
+    "c++" : ["-std=c++11"],
+    "c": [],
+    "objc": [],
+    "objc++": []
+  },
+  "options": [
+    "-isystem", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/",
+    "-isystem", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/include/c++/4.2.1",
+    "-F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/",
+    "-isystem", "C:\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include",
+    "-isystem", "C:\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include\\c++",
+    "-isystem", "C:\\MinGW\\lib\\gcc\\mingw32\\4.7.0\\include\\c++\\mingw32",
+    "-isystem", "C:\\MinGW\\include",
+    "-isystem", "/usr/include",
+    "-isystem", "/usr/include/c++/*",
+    "-isystem", "/Users/oryx/Projects/cpp/gmock-1.7.0/include",
+    "-isystem", "/Users/oryx/Projects/cpp/gmock-1.7.0/gtest/include",
+    "-Wall",
+    "-Wno-c++11-extensions"
+  ]
+}
