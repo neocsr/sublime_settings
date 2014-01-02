@@ -2,3 +2,5 @@
 Package\ Control.*
 RubyTest.last-run
 SublimeREPLHistory
+.SublimeREPLHistory
+bh_unicode_properties.cache
