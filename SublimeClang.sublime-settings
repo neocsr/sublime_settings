@@ -1,7 +1,11 @@
 {
-    // If set to true it'll add for example "-x c++" to the options for c++ files
+  // Whether or not to automatically show the output panel.
+  // If set to false, the default key-binding alt+d,alt+p
+  // will show it
+  "show_output_panel": false,
+  // If set to true it'll add for example "-x c++" to the options for c++ files
   "add_language_option": true,
-  "sublimeclang_additional_language_options": {
+  "additional_language_options": {
     "c++" : ["-std=c++11"],
     "c": [],
     "objc": [],

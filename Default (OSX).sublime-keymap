@@ -1,4 +1,20 @@
 [
+  // BracketHitghlighter
+  { "keys": ["ctrl+super+]"],
+    "command": "swap_brackets"
+  },
+  // Toggle high visibility mode
+  { "keys": ["ctrl+super+h"],
+    "command": "bh_toggle_high_visibility"
+  },
+  // Select text between brackets
+  { "keys": ["ctrl+super+k"],
+    "command": "bh_key",
+    "args": {
+      "lines" : true,
+      "plugin": {"type": ["__all__"], "command": "bh_modules.bracketselect"}
+    }
+  },
   // Custom layout
   { "keys": ["super+shift+7"],
     "caption": "2 cols (full - 2)",
