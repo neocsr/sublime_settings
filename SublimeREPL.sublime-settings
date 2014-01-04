@@ -1,4 +1,4 @@
 {
-  "default_extend_env": { "PATH": "{HOME}/.rbenv/shims:{PATH}" }
+  "default_extend_env": { "PATH": "{HOME}/.rbenv/shims:/usr/local/bin:{PATH}" }
 }
 
