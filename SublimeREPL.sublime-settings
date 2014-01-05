@@ -1,4 +1,15 @@
 {
+  "repl_view_settings": {
+    "translate_tabs_to_spaces": false,
+    "auto_indent": false,
+    "smart_indent": false,
+    "spell_check": false,
+    "indent_subsequent_lines": true,
+    "detect_indentation": false,
+    "auto_complete": true,
+    "line_numbers": false,
+    "gutter": false
+  },
   "default_extend_env": { "PATH": "{HOME}/.rbenv/shims:/usr/local/bin:{PATH}" }
 }
 
