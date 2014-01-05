@@ -287,8 +287,6 @@
         <dict>
           <key>background</key>
           <string>#F92672</string>
-          <key>fontStyle</key>
-          <string/>
           <key>foreground</key>
           <string>#F8F8F0</string>
         </dict>
@@ -308,26 +306,79 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>Keyword.other.mark</string>
+        <string>Keyword.other.mark.clojure</string>
         <key>scope</key>
-        <string>keyword.other.mark</string>
+        <string>keyword.other.mark.clojure</string>
         <key>settings</key>
         <dict>
-          <key>fontStyle</key>
-          <string>bold italic</string>
           <key>foreground</key>
-          <string>#66D9EF</string>
+          <string>#FFFFFF</string>
         </dict>
       </dict>
       <dict>
         <key>name</key>
-        <string>String Constant Symbol</string>
+        <string>entity.name.function.clojure</string>
+        <key>scope</key>
+        <string>entity.name.function.clojure</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>support.function.tester.clojure</string>
+        <key>scope</key>
+        <string>support.function.tester.clojure</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>keyword.operator.classpath.clojure</string>
+        <key>scope</key>
+        <string>keyword.operator.classpath.clojure</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFFFFF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Operator Keyword</string>
+        <key>scope</key>
+        <string>keyword.operator.symbole.clojure</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#9B8ED7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>String Keyword</string>
         <key>scope</key>
         <string>constant.string.symbole.clojure</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#F92672</string>
+          <string>#9B8ED7</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Invalid</string>
+        <key>scope</key>
+        <string>invalid.illegal.symbol.clojure</string>
+        <key>settings</key>
+        <dict>
+          <key>background</key>
+          <string>#1C1C18</string>
         </dict>
       </dict>
       <dict>
