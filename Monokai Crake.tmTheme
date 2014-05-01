@@ -191,7 +191,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#fff</string>
+        <string>#ef2a78</string>
       </dict>
     </dict>
     <dict>
@@ -202,7 +202,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#4ad7ff</string>
+        <string>#ef2a78</string>
       </dict>
     </dict>
     <dict>
@@ -472,6 +472,17 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>Punctuation section embedded ruby</string>
+      <key>scope</key>
+      <string>punctuation.section.embedded.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ff9300</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>String.regexp</string>
       <key>scope</key>
       <string>string.regexp</string>
@@ -597,6 +608,96 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>Language Constant Clojure</string>
+      <key>scope</key>
+      <string>constant.language.clojure</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#4ad7ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Operator Clojure</string>
+      <key>scope</key>
+      <string>keyword.operator.qualified.clojure</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Operator Classpath Clojure</string>
+      <key>scope</key>
+      <string>keyword.operator.classpath.clojure</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Storage type variable clojure</string>
+      <key>scope</key>
+      <string>storage.type.variable.clojure</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ef2a78</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Storage type function type clojure</string>
+      <key>scope</key>
+      <string>storage.type.function.type.clojure</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ef2a78</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Support function namespace clojure</string>
+      <key>scope</key>
+      <string>support.function.namespace.clojure</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
+        <key>foreground</key>
+        <string>#ef2a78</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Meta function namespace clojure</string>
+      <key>scope</key>
+      <string>meta.function.namespace.clojure</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Function definition clojure</string>
+      <key>scope</key>
+      <string>entity.name.function.clojure</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>Clojure Punctuation</string>
       <key>scope</key>
       <string>source.clojure punctuation.definition.string</string>
@@ -638,7 +739,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ace333</string>
+        <string>#ffffff</string>
       </dict>
     </dict>
     <dict>
@@ -697,9 +798,9 @@
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
-        <string>bold </string>
+        <string>bold</string>
         <key>foreground</key>
-        <string>#ef2a78</string>
+        <string>#ace333</string>
       </dict>
     </dict>
     <dict>
@@ -712,7 +813,7 @@
         <key>fontStyle</key>
         <string>bold </string>
         <key>foreground</key>
-        <string>#ff9300</string>
+        <string>#4ad7ff</string>
       </dict>
     </dict>
     <dict>
@@ -738,7 +839,7 @@
         <key>fontStyle</key>
         <string>bold </string>
         <key>foreground</key>
-        <string>#ace333</string>
+        <string>#4ad7ff</string>
       </dict>
     </dict>
     <dict>
@@ -757,6 +858,17 @@
       <string>String Constant Symbol</string>
       <key>scope</key>
       <string>constant.string.symbole.clojure</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#A7A3FF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Meta expression name clojure</string>
+      <key>scope</key>
+      <string>meta.expression.name.clojure</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -874,11 +986,22 @@
       <key>name</key>
       <string>Block variable</string>
       <key>scope</key>
-      <string>variable.other.block, punctuation.separator.variable</string>
+      <string>variable.other.block</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
         <string>#4ad7ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Punctuation separator variable</string>
+      <key>scope</key>
+      <string>punctuation.separator.variable</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffffff</string>
       </dict>
     </dict>
     <dict>
