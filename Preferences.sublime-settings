@@ -13,7 +13,6 @@
 	"highlight_modified_tabs": false,
 	"ignored_packages":
 	[
-		"ColorPicker",
 		"Backbone.js",
 		"SublimeCodeIntel",
 		"RubyMotionBuilder",

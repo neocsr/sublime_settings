@@ -1,4 +1,8 @@
 [
+  // ColorPicker
+  { "keys": ["ctrl+shift+p"],
+    "command": "color_pick"
+  },
   // BracketHitghlighter
   { "keys": ["ctrl+super+]"],
     "command": "swap_brackets"
