@@ -905,6 +905,17 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>String regexp classic ruby</string>
+      <key>scope</key>
+      <string>string.regexp.classic.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>String quoted single</string>
       <key>scope</key>
       <string>string.quoted.single.ruby</string>
