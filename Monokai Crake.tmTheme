@@ -114,8 +114,6 @@
       <string>constant.language</string>
       <key>settings</key>
       <dict>
-        <key>fontStyle</key>
-        <string>bold italic</string>
         <key>foreground</key>
         <string>#4ad7ff</string>
       </dict>
@@ -293,8 +291,6 @@
       <string>entity.other</string>
       <key>settings</key>
       <dict>
-        <key>background</key>
-        <string>#2F0004</string>
         <key>foreground</key>
         <string>#04FFD7</string>
       </dict>
@@ -434,7 +430,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#e5e36e</string>
+        <string>#cccc66</string>
       </dict>
     </dict>
     <dict>
@@ -445,7 +441,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#e5e36e</string>
+        <string>#cccc66</string>
       </dict>
     </dict>
     <dict>
@@ -456,7 +452,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#e5e36e</string>
+        <string>#cccc66</string>
       </dict>
     </dict>
     <dict>
@@ -774,7 +770,7 @@
         <key>fontStyle</key>
         <string>bold italic</string>
         <key>foreground</key>
-        <string>#FF71BB</string>
+        <string>#ff9300</string>
       </dict>
     </dict>
     <dict>
@@ -787,7 +783,7 @@
         <key>fontStyle</key>
         <string>bold italic</string>
         <key>foreground</key>
-        <string>#FF71BB</string>
+        <string>#ff9300</string>
       </dict>
     </dict>
     <dict>
@@ -916,13 +912,13 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>String quoted single</string>
+      <string>String quoted single ruby</string>
       <key>scope</key>
       <string>string.quoted.single.ruby</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#e5e36e</string>
+        <string>#cccc66</string>
       </dict>
     </dict>
     <dict>
@@ -932,10 +928,19 @@
       <string>meta.environment-variable string</string>
       <key>settings</key>
       <dict>
-        <key>background</key>
-        <string>#0a4249</string>
         <key>foreground</key>
         <string>#ffffff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Variable other constant ruby</string>
+      <key>scope</key>
+      <string>variable.other.constant.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ace333</string>
       </dict>
     </dict>
     <dict>
@@ -945,8 +950,10 @@
       <string>variable.other.readwrite.global, variable.other.readwrite.global punctuation.definition.variable</string>
       <key>settings</key>
       <dict>
+        <key>fontStyle</key>
+        <string>bold</string>
         <key>foreground</key>
-        <string>#FFACAA</string>
+        <string>#4ad7ff</string>
       </dict>
     </dict>
     <dict>
@@ -1506,7 +1513,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#e5e36e</string>
+        <string>#cccc66</string>
       </dict>
     </dict>
     <dict>
@@ -2522,7 +2529,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#e5e36e</string>
+        <string>#cccc66</string>
       </dict>
     </dict>
     <dict>
