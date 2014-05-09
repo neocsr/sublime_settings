@@ -24,28 +24,34 @@
         <string>#FF0080</string>
         <key>background</key>
         <string>#1e1e1e</string>
-        <key>caret</key>
-        <string>#fffc79</string>
-        <key>findHighlight</key>
-        <string>#F2FF06</string>
-        <key>findHighlightForeground</key>
-        <string>#011993</string>
         <key>foreground</key>
-        <string>#FFFFFF</string>
+        <string>#ffffff</string>
         <key>guide</key>
         <string>#6F6F6F</string>
-        <key>inactiveSelection</key>
-        <string>#353576</string>
+        <key>caret</key>
+        <string>#fffc79</string>
         <key>invisibles</key>
         <string>#929292</string>
         <key>lineHighlight</key>
         <string>#000000</string>
-        <key>selection</key>
-        <string>#353576</string>
-        <key>selectionBorder</key>
-        <string>#929292</string>
         <key>stackGuide</key>
         <string>#005493</string>
+        <key>findHighlight</key>
+        <string>#800000</string>
+        <key>findHighlightForeground</key>
+        <string>#ffffff</string>
+        <key>findHighlightBorder</key>
+        <string>#800000</string>
+        <key>inactiveSelection</key>
+        <string>#4a0000</string>
+        <key>inactiveSelectionForeground</key>
+        <string>#ffffff</string>
+        <key>selection</key>
+        <string>#800000</string>
+        <key>selectionForeground</key>
+        <string>#ffffff</string>
+        <key>selectionBorder</key>
+        <string>#800000</string>
       </dict>
     </dict>
     <dict>
@@ -2454,7 +2460,18 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#06FF05</string>
+        <string>#ace333</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Find In Files: Line Number</string>
+      <key>scope</key>
+      <string>constant.numeric.line-number.find-in-files</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ffffff</string>
       </dict>
     </dict>
     <dict>
@@ -2465,7 +2482,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFFF00</string>
+        <string>#ff9300</string>
       </dict>
     </dict>
     <dict>
