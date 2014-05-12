@@ -894,6 +894,17 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>Variable other object ruby</string>
+      <key>scope</key>
+      <string>variable.other.object.ruby</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#ace333</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>Ruby symbol</string>
       <key>scope</key>
       <string>constant.other.symbol, constant.other.symbol punctuation.definition.constant</string>
