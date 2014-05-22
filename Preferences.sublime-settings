@@ -3,12 +3,12 @@
 	"caret_style": "normal",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Crake.tmTheme",
 	"com.khiltd.abacus.debug": true,
-	"font_face": "GohuFont",
+	"font_face": "PT Mono",
 	"font_options":
 	[
 		"normal"
 	],
-	"font_size": 14.0,
+	"font_size": 13.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": false,
 	"ignored_packages":
