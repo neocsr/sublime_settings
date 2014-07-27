@@ -3,19 +3,19 @@
 	"caret_style": "normal",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Crake.tmTheme",
 	"com.khiltd.abacus.debug": true,
-	"font_face": "PT Mono",
+	"font_face": "Monaco",
 	"font_options":
 	[
 		"normal"
 	],
-	"font_size": 13.0,
+	"font_size": 18.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": false,
 	"ignored_packages":
 	[
+		"RubyMotionBuilder",
 		"Backbone.js",
 		"SublimeCodeIntel",
-		"RubyMotionBuilder",
 		"Nodejs",
 		"JavaScriptNext - ES6 Syntax",
 		"SublimeWebColors",
