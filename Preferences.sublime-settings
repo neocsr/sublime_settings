@@ -4,6 +4,7 @@
 	"color_scheme": "Packages/Color Scheme - Default/Monokai Crake.tmTheme",
 	"com.khiltd.abacus.debug": true,
 	"font_face": "Monaco",
+	"ensure_newline_at_eof_on_save": true,
 	"font_options":
 	[
 		"normal"
