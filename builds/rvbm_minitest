@@ -37,4 +37,4 @@ exec( """
       ruby #{ARGV.join(' ')}
       """ )
 
-exit -1
+exit(-1)

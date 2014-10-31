@@ -2,28 +2,28 @@
 
 require 'shellwords'
 
-file = File.expand_path(ARGV[0] || (STDERR.puts('you must specify a ruby file'); exit(-1)))
-file = Shellwords.escape(file)
-
-dir = File.dirname(file)
-dir = Shellwords.escape(dir)
+command =<<-eos
+  tell application "iTerm"
+    tell the first terminal
+      # launch session "RSpec"
+      tell the current session
+        write text "bundle exec rspec #{ARGV.join(' ')}"
+      end tell
+    end tell
+  end tell
+eos
 
 if File.exist?(ENV['HOME'] + '/.rvmrc')
   exec( """
-        source \"$HOME/.rvm/scripts/rvm\"
-        echo \"     file: #{file}\"
-        echo \"directory: #{dir}\"
         echo \"  command: bundle exec rspec #{ARGV.join(' ')} --color\"
         echo \"-------------------------------------------------------------\"
-        bundle exec rspec #{ARGV.join(' ')} --color
+        osascript -e '#{command}'
         """ )
 elsif File.exist?(ENV['HOME'] + '/.rbenv')
   exec( """
-        echo \"     file: #{file}\"
-        echo \"directory: #{dir}\"
-        echo \"  command: /usr/local/bin/rbenv exec bundle exec rspec #{ARGV.join(' ')} --color\"
+        echo \"  command: ~/.rbenv/shims/bundle exec rspec #{ARGV.join(' ')} --color\"
         echo \"-------------------------------------------------------------\"
-        /usr/local/bin/rbenv exec bundle exec rspec #{ARGV.join(' ')} --color
+        osascript -e '#{command}'
         """ )
 else
   STDERR.puts("'.rvm' or '.rbenv' directories not found in your home path")
