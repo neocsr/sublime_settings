@@ -9,7 +9,7 @@
 	[
 		"normal"
 	],
-	"font_size": 12.0,
+	"font_size": 10.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": false,
 	"ignored_packages":
