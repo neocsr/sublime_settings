@@ -1,4 +1,6 @@
 [
+  // Godef
+  { "keys": ["ctrl+d"], "command": "godef" },
   // ColorPicker
   { "keys": ["ctrl+shift+p"],
     "command": "color_pick"
